@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jarvis Voice Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Jarvis Voice Assistant</h1>
+    <button id="record-btn">🎤 Start Talking</button>
+    <div id="status"></div>
+    <div class="transcript-section">
+      <h2>You said:</h2>
+      <div id="transcript"></div>
+    </div>
+    <div class="response-section">
+      <h2>AI Response:</h2>
+      <div id="ai-response"></div>
+    </div>
+  </div>
+  <audio id="audio-player" controls style="display:none;"></audio>
+  <script src="app.js"></script>
+</body>
+</html>

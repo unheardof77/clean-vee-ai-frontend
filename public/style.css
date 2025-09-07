@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #e0eafc, #cfdef3);
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 24px;
+  color: #2d3a4b;
+}
+button#record-btn {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 32px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.2s;
+}
+button#record-btn:active {
+  background: #3461a4;
+}
+#status {
+  margin-bottom: 16px;
+  color: #888;
+}
+.transcript-section, .response-section {
+  margin-top: 24px;
+  background: #f7fafd;
+  border-radius: 8px;
+  padding: 16px;
+}
+#transcript, #ai-response {
+  font-size: 1.1em;
+  color: #222;
+  margin-top: 8px;
+  word-break: break-word;
+}
